@@ -1,0 +1,278 @@
+
+@media (max-width: 1270px){
+    .container{
+        margin: 0px 5%;
+    }
+    nav ul li a{
+        font-size: 1.5rem;
+    }
+    .circle{
+        left:50%
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        position: fixed;
+    }
+    .logo{
+    
+        display: inline;
+    }
+  .Projects{
+    margin: 20px 0px;
+  }  
+.Projects-list{
+    
+    flex-direction: column;
+}
+.Primg img{
+    
+    width: auto;
+}
+
+}
+@media(max-width:1100px){
+nav ul li{
+    font-size: 20px;
+    padding:0px 5px;
+}
+#Header{
+    height: auto;
+}
+.whichheading{
+
+    flex-direction: column;
+}
+.devskillsection{
+    width: 100%;
+    justify-content: center;
+}
+.devskills{
+    width: 100%;
+}
+.Myskills{
+    width: 100%;
+}
+.skill-box{
+    width: 90%;
+}
+.skill-icon{
+    width: 20%;
+}
+.skill-icon2{
+    width: 20%;
+}
+.skill-bar{
+    margin: 20px 40px;
+    width: 100%;
+}
+.codskills{
+    width: 100%;
+}
+
+#Home{
+   
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.about-left{
+    margin-right: 0px;
+    flex-basis: 90%;
+}
+.left{
+    width: 100%;
+}
+.circle{
+    left: 50%;
+}
+.form{
+    width: 100%;
+}
+.msg{
+    width: 100%;
+}
+nav ul li{
+    margin: 0px;
+}
+.Contactme{
+    flex-direction: column;
+}
+}
+@media(max-width:900px){
+    .container{
+       margin:0px   5%;
+       margin-bottom: 20px;
+}
+nav ul li a{
+    font-size: 1.2rem;
+    padding: 10px 0%;
+  
+    
+}
+.logo{
+    
+    
+    font-size: 20px;
+}
+.form{
+    width: 100%;
+}
+.msg{
+    width: 100%;
+}
+}
+@media(max-width:750px){
+    nav{flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .container{
+        margin: 5px 10%;
+    }
+    .left{
+        margin-top: 10vh;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+    .about-title{
+        width: 100%;
+        margin-left: 20%;
+        
+    }
+    .form{
+        width: 100%;
+    }
+    .msg{
+        width: 100%;
+    }
+    .about-right{
+      margin-left: 0;
+        justify-content: space-between;
+    }
+    .tab-links{
+        font-size: 25px;
+        margin-right: 40px;
+    }
+}
+@media(max-width:560px){
+    nav ul li a{
+        font-size: 0.75rem;
+    }
+    .p2{font-size: 3rem;
+
+
+    }
+    .form{
+        width: 100%;
+    }
+    .msg{
+        width: 100%;
+    }
+    #button1{
+        width:150px;
+    }
+    form{width: 100%;}
+    .namenum{
+width: 100%;
+    }
+    .wrapper .icon span{
+        height: 60px;
+        width: 60px;}
+        .wrapper .icon span i{
+            line-height: 60px;
+        }
+    nav{
+        width: 70%;
+        justify-content: space-between;
+    }
+    .about-right{
+        width: 100%;
+        
+    }
+
+    .tab-links{
+        margin-right: 25px;
+        font-size: 1rem;
+    }
+    .tab-contents ul li{
+        margin-right: 20px;
+        font-size: 1rem;
+    }
+    .Contactme{
+        font-size: 1rem;
+    }
+    #input1{
+        font-size: 1rem;
+        width: 90%;
+    }
+    .footer-text{
+        font-size: 20px;
+    }
+    .footer{
+        padding: 15px 5%;
+        display: flex;
+    }
+    .footer .footer-icon{
+        margin: 10px;
+      height: 50px;
+      width: 65px;
+      
+    }
+    .footer .footer-icon i{
+        font-size: 20px;
+        line-height: 50px;
+    }
+    #circle1{
+        width: 25rem;
+
+    }
+    #circle2{
+        width: 22rem;
+        
+    }
+
+
+}
+@media(max-width:450px){
+    #circle1{
+        width: 22rem;
+
+    }
+    .footer-text{
+        font-size:1rem;
+    }
+    #circle2{
+        width: 19rem;
+        
+    }.prhead{
+        font-size: 50px;
+        width: 350px;
+    }
+    .Primg img{
+        height: 280px;
+        width: 260px;
+    }
+    textarea{
+        padding: 10px;
+    }
+    .about-title{
+    
+        margin-left: 10%;}
+        #input1{
+            font-size: 1rem;
+            width: 100%;
+        }
+
+        .footer .footer-icon{
+            margin: 10px;
+          height: 40px;
+          width:40px;
+          
+        }
+        .footer .footer-icon i{
+            font-size: 18px;
+            line-height:40px;
+        }
+}
